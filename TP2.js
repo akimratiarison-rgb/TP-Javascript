@@ -4,10 +4,10 @@ const etudiants = [
     { id: 3, nom: "Ketaka", filiere: "GL", moyenne: 10 },
     { id: 4, nom: "Bema", filiere: "Reseau", moyenne: 11 },
 ];
-etudiants.forEach((etudiant) => {console.log(etudiant.nom)});
+etudiants.forEach((etudiant) => {console.log(etudiant.nom)}
+);
 
 //UTILISATION DE DESTRUCTURATION POUR EXTRAIRE LE NOM ET MOYENNE 
-
 etudiants.forEach(etudiant => {
     const { nom, moyenne } = etudiant;
     console.log(`Nom: ${nom}, Moyenne: ${moyenne}`);
