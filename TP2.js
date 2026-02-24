@@ -55,6 +55,7 @@ function chargerEtudiants() {
         }, 2000);
     });
 }
+
 //CREATION DU FONCTION ASYNC 
 async function gererChargementEtudiants() {
     try {
@@ -66,6 +67,7 @@ async function gererChargementEtudiants() {
         console.error("Erreur lors du chargement des étudiants:", erreur);
     }
 }
+
 //CALCUL DE LA MOYENNE GLOBALE DES ETUDIANTS    
 (async () => {
     await gererChargementEtudiants();
